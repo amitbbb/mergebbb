@@ -1,0 +1,144 @@
+{
+  "wrapper": "div.about-history-templete",
+  "sections": {
+    "main": {
+      "type": "about-banner",
+      "blocks": {
+        "c2938a28-6fef-4b5d-9494-203302c43e17": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_3.jpg",
+            "slicktext": ""
+          }
+        },
+        "62a28ea3-e094-43fb-a448-b7e2eb3669f9": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_4.jpg",
+            "slicktext": "Downtown Los Angeles, circa 1930"
+          }
+        },
+        "b9e3118c-a041-4de9-8558-8f2bef7b980a": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_1_4c9ee3fc-5c4d-46b3-bb2f-ece4b27c4fe0.jpg",
+            "slicktext": ""
+          }
+        },
+        "1d4091c3-2152-4f0a-a457-f763769de891": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_2.jpg",
+            "slicktext": ""
+          }
+        },
+        "0c1605eb-281c-4583-b690-02a103d98790": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_0d60e035-d87a-4c89-b330-7559563e3b79.jpg",
+            "slicktext": ""
+          }
+        },
+        "d21a4a05-2fca-42f9-b2c2-3c29142b8b3c": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_5.jpg",
+            "slicktext": ""
+          }
+        }
+      },
+      "block_order": [
+        "c2938a28-6fef-4b5d-9494-203302c43e17",
+        "62a28ea3-e094-43fb-a448-b7e2eb3669f9",
+        "b9e3118c-a041-4de9-8558-8f2bef7b980a",
+        "1d4091c3-2152-4f0a-a457-f763769de891",
+        "0c1605eb-281c-4583-b690-02a103d98790",
+        "d21a4a05-2fca-42f9-b2c2-3c29142b8b3c"
+      ],
+      "settings": {
+      }
+    },
+    "1660659466013e7d0a": {
+      "type": "about-left-right-text",
+      "settings": {
+        "heading": "A heritage of taking care of families",
+        "subheading": "Over a Century of Trusted Family Care",
+        "description": "<p>Our passion for natural wellness is rooted in 120+ years of time-tested and effective products, carefully crafted with the whole family in mind. From our early beginnings formulating innovative and gentle health remedies, to our modern day offering of natural medicines and preventative care, we strive to remain true to our roots, serving as a trusted source for high-quality ingredients and thoughtful family health care.<\/p><p><\/p><p>Our incredible wellness journey started out in the heart of downtown Los Angeles, when our company founder George H. Hyland recognized a need for naturally-derived and holistic health-care products. In an effort to bring his vision to life, George purchased a local pharmacy specializing in homeopathy, with the aim of creating premium and innovative health solutions to treat everyday ailments.<\/p><p>From our humble beginnings crafting wellness remedies in the 7th street pharmacy basement, to our modern-day expansion into a tried and true natural health brand, we have always remained steadfast in our mission to provide effective yet gentle solutions for all your family’s healthcare needs.<\/p><p>Preferring a holistic approach, we believe strongly in the body's ability to heal itself, which is why we love leveraging natural ingredients to stimulate powerful healing responses. Instead of simply masking symptoms, like many traditional medicines,our natural remedies are intelligently designed to safely and effectively work alongside your body to promote wellness and safely manage all of your symptoms.<\/p>"
+      }
+    },
+    "1660735495f1200e6e": {
+      "type": "about-with-image-text",
+      "blocks": {
+        "03f21a2a-afe0-478a-8144-e44938679434": {
+          "type": "card",
+          "settings": {
+            "logoimg": "shopify:\/\/shop_images\/download_97b03320-6ab5-42fe-afc0-b4e6b7780e3b.png",
+            "heading": "Real ingredients. Real relief.",
+            "subheading": "<p>Our family’s innovative approach to homeopathic medicines has helped generations heal from everyday ailments with our gentle, all-natural relief.<\/p>",
+            "card_img": "shopify:\/\/shop_images\/download_54cba590-2c35-445d-9560-600eddb7cefc.jpg",
+            "image_text": "George H. Hyland created the first teething tablet in 1925."
+          }
+        },
+        "24a8d95a-f9d7-4c42-8a16-090f658bb808": {
+          "type": "card",
+          "settings": {
+            "logoimg": "shopify:\/\/shop_images\/Frame.png",
+            "heading": "Natural, effective products.",
+            "subheading": "<p>From newborns to seniors, Hyland’s is here to help everyone feel their very best whether it’s a leg cramp, earache, runny nose, or a restless night.<\/p>",
+            "card_img": "shopify:\/\/shop_images\/download_1_550d6db1-1345-4d5b-b23f-31cbf9d49ecf.jpg",
+            "image_text": "Hyland’s has operated in downtown Los Angeles since 1903."
+          }
+        }
+      },
+      "block_order": [
+        "03f21a2a-afe0-478a-8144-e44938679434",
+        "24a8d95a-f9d7-4c42-8a16-090f658bb808"
+      ],
+      "settings": {
+      }
+    },
+    "166073996205e46686": {
+      "type": "about-landing-page",
+      "blocks": {
+        "765a9eca-f2c1-4391-b9c6-c8c6e9f8076e": {
+          "type": "card",
+          "settings": {
+            "prod_img": "shopify:\/\/shop_images\/download-_1.jpg",
+            "btn_label": "Shop For Babies",
+            "btn_url": ""
+          }
+        },
+        "d1315767-062b-4825-90d3-4fea7d991194": {
+          "type": "card",
+          "settings": {
+            "prod_img": "shopify:\/\/shop_images\/download-_2.jpg",
+            "btn_label": "Shop For Kids",
+            "btn_url": ""
+          }
+        },
+        "828f6115-3325-4c14-80c0-9289e76ac61f": {
+          "type": "card",
+          "settings": {
+            "prod_img": "shopify:\/\/shop_images\/download-_3.jpg",
+            "btn_label": "Shop For Adults",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "765a9eca-f2c1-4391-b9c6-c8c6e9f8076e",
+        "d1315767-062b-4825-90d3-4fea7d991194",
+        "828f6115-3325-4c14-80c0-9289e76ac61f"
+      ],
+      "settings": {
+        "sec_head": "Trusted wellness for over a century"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660659466013e7d0a",
+    "1660735495f1200e6e",
+    "166073996205e46686"
+  ]
+}

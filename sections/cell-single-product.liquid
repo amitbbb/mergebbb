@@ -1,0 +1,85 @@
+<div class="cell-tablet-products">
+  {% assign product = all_products[section.settings.product_item] %}
+  <div class="product-card">
+    <div class="product-card-description cell-single-product">
+      <h2>{{ product.title }}</h2>
+      <p>{{ section.settings.description }}</p>
+
+      <form action="/cart/add" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="form_type" value="product">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+
+        <div class="product_varie">
+          {% if product.variants[0].available %}
+          <p>{{ product.price | money_with_currency }}</p>
+          {% else %}
+          <p disabled="disabled" class="product-sold-out">Sold out</p>
+          {% endif %}
+        </div>
+
+        <div class="cell-product_quantity">
+          <div class="cell-product_add_quantity">
+
+            <div class="product_quant">
+              <button type="button" class="shg-product-quantity-button shg-product-quantity-button-left">-</button>
+              <input type="text" id="cell_qun_prod" name="quantity" class="product-quantity" value="1">
+              <button type="button" class="shg-product-quantity-button shg-product-quantity-button-right">+</button>
+            </div>
+          </div>
+
+
+          <div class="cell-product_break">
+            <div class="cell-product_quantity_inner">
+              <div class="cell-product_quantity_save_main ">
+                {% if product.variants[0].available %}
+                <input type="submit" name="add" id="add" value="Add to Cart" class="button">
+                {% else %}
+                <button disabled="disabled" class="product-sold-out"> {{ variant.title }} Sold out</button>
+                {% endif %}
+
+              </div>
+              <div class="cell-product_quantity_subscrie_main">
+                <a href="/products/{{ product.handle }}" class="product-subscribe">Subscribe and Save</a>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+    <div class="product-card-image cell-single-product">
+      <a href="{{ product.url }}">
+        <img src="{{ product.featured_image | img_url: 'master' }}" border="0" />
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+"name": "Cell Single Product",
+"class": "cel-single-product-main",
+"settings": [
+{
+"type": "product",
+"id": "product_item",
+"label": "Choose the product you want displayed"
+},
+{
+"type": "richtext",
+"id": "description",
+"label": "Add product description"
+}
+] ,
+"presets": [
+{
+"name": "Cell Single Product"
+}
+]
+}
+{% endschema %}

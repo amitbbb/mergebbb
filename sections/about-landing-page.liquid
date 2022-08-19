@@ -1,0 +1,56 @@
+<div class="about-landing-pages-main">
+    {% if section.settings.sec_head != blank %}
+     <h2>{{ section.settings.sec_head }}</h2>
+    {% endif %}
+     <div class="about-landing-pages-wrapper">
+         <div class="landing-pages-cards">
+             {% for block in section.blocks %}
+               <a href="{{ block.settings.btn_url }}">
+                 <img src="{{ block.settings.prod_img | img_url: 'original' }}" alt="" />
+                 <h3>{{ block.settings.btn_label }}</h3>
+               </a>
+             {% endfor %}
+         </div>
+     </div>
+   </div>
+   
+   {% schema %}
+   {
+     "name": "About Landing Pages",
+     "class": "about-landing-pages",  
+     "settings": [
+     {
+       "type": "text",
+       "id": "sec_head",
+       "label": "Heading"
+     }     ],
+     "blocks": [
+     {
+       "type": "card",
+       "name": "Pages Card",
+       "settings": [
+           {
+             "type": "image_picker",
+             "id": "prod_img",
+             "label": "Product Image"
+           },
+           {
+             "type": "text",
+             "id": "btn_label",
+             "label": "Button Label"
+           },
+           {
+             "type": "text",
+             "id": "btn_url",
+             "label": "Button URL"
+           }      
+         ]
+     }
+     ] ,
+     "presets": [
+     {
+       "name": "About Landing Pages"
+     }
+     ]
+   }
+   {% endschema %}

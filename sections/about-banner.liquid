@@ -1,0 +1,49 @@
+<div class="page_section">
+    <div class="page_content">
+       <div class="about_slider_box">
+                {% for block in section.blocks %}
+                     {% if block.settings.img != blank and block.type == 'slider' %}
+                      <div class="about_image">
+                            <img src="{{ block.settings.img | img_url: 'original'}}" ></span>
+                            {% if block.settings.slicktext != blank%}
+                            <h4>{{block.settings.slicktext}}</h4>
+                            {% endif%}
+                          
+                        </div> 
+                     {% endif %}
+                    {% endfor %}
+  </div>
+
+</div>
+
+</div>
+
+{% schema %}
+{
+  "name": "About Slider",
+  "settings": [],
+"blocks":[
+ {
+  "type": "slider",
+  "name": "slider",
+  "settings":[
+   {
+    "type": "image_picker",
+    "id": "img",
+    "label": "Image"
+   },
+  {
+    "type": "text",
+    "id": "slicktext",
+    "label": "Add text in slider"
+  }
+  ]
+ }	 
+],
+"presets":[
+ {
+  "name": "About Slider"
+ }
+]
+}
+{% endschema %}

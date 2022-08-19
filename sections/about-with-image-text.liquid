@@ -1,0 +1,62 @@
+{% for block in section.blocks %}
+<div class="about-section-cards-wrapper">
+        <div class="about_card-left">
+        <div class="about_left_main">
+            <img src="{{ block.settings.logoimg | img_url: 'master' }}" alt="{{ block.settings.heading }}" />
+          <h2>{{ block.settings.heading }}</h2>
+          <div class="about_subheading">
+            {{ block.settings.subheading }}
+            </div>
+        </div>
+        </div>
+    	<div class="about_card-right">
+          <img src="{{ block.settings.card_img | img_url: 'master' }}" alt="{{ block.settings.heading }}" />
+          <h3>{{ block.settings.image_text}}</h3>
+      </div>
+</div>
+{% endfor %}
+{% schema %}
+{
+  "name": "About Image With Text",
+  "class": "About-Image-With-Text",
+  "settings": [] ,
+  "blocks": [
+  {
+	"type": "card",
+	"name": "About Image With Text",
+	"settings": [      
+          {
+            "type": "image_picker",
+            "id": "logoimg",
+            "label": "Text Image"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "subheading",
+            "label": "Sub Heading"
+          },
+          {
+            "type": "image_picker",
+            "id": "card_img",
+            "label": "Card Image"
+          },
+          {
+            "type": "text",
+            "id": "image_text",
+            "label": "Image With text"
+          }    
+      ]
+  }
+  ],
+  "presets": [
+  {
+    "name": "About Image With Text"
+  }
+  ]
+}
+{% endschema %}

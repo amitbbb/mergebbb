@@ -1,0 +1,249 @@
+{
+  "wrapper": "div.cell-salt-templete",
+  "sections": {
+    "main": {
+      "type": "hero-banner",
+      "settings": {
+        "hero_img": "shopify:\/\/shop_images\/download.jpg",
+        "hero_heading": "Explore our signature cell salts.",
+        "hero_sub_heading": "Take a look at what makes cell salts a must-have for your everyday wellness.",
+        "hero_button": "",
+        "hero_btn_url": "",
+        "hero_btn_color": "",
+        "hero_btn_h_color": ""
+      }
+    },
+    "166002976881b13256": {
+      "type": "banner-marquee",
+      "settings": {
+        "marquee": "&nbsp;"
+      }
+    },
+    "166004344774c96617": {
+      "type": "cell-tab",
+      "blocks": {
+        "dcd85cd1-a690-4916-8122-b721ae2b01c3": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_1.jpg",
+            "text": "MADE IN USA"
+          }
+        },
+        "ba7e412c-2eeb-4e6c-b3df-b7c728c51b63": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_615610b6-22b3-426c-8c4d-943b84d47a1a.png",
+            "text": "VEGAN"
+          }
+        },
+        "cd892d72-7cb4-4c85-9d92-c29851a59d46": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_1_e80642cd-4d8a-4b29-bc02-8b17ad83c0c7.png",
+            "text": "ALLERGEN FREE"
+          }
+        },
+        "c1a97e19-7050-473b-b945-1004ca854f71": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_2.png",
+            "text": "CRUELTY FREE"
+          }
+        },
+        "41afb158-2552-4c65-9e7e-4d3a17b16276": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_3.png",
+            "text": "NO ARTIFICIAL FLAVORS\/DYES"
+          }
+        },
+        "ee4e81bb-3c3a-4bd7-bdc5-4a11cb06686f": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_4.png",
+            "text": "GLUTEN FREE"
+          }
+        },
+        "c0eb27b0-d81d-4ec6-ba93-3ec42993d5f9": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_5.png",
+            "text": "PARABEN FREE"
+          }
+        },
+        "7f03ff64-7111-48d8-9cc3-9f69240d08e8": {
+          "type": "celltab",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/download_6.png",
+            "text": "ALCOHOL FREE"
+          }
+        }
+      },
+      "block_order": [
+        "dcd85cd1-a690-4916-8122-b721ae2b01c3",
+        "ba7e412c-2eeb-4e6c-b3df-b7c728c51b63",
+        "cd892d72-7cb4-4c85-9d92-c29851a59d46",
+        "c1a97e19-7050-473b-b945-1004ca854f71",
+        "41afb158-2552-4c65-9e7e-4d3a17b16276",
+        "ee4e81bb-3c3a-4bd7-bdc5-4a11cb06686f",
+        "c0eb27b0-d81d-4ec6-ba93-3ec42993d5f9",
+        "7f03ff64-7111-48d8-9cc3-9f69240d08e8"
+      ],
+      "settings": {
+        "heading": "Our cell salt tablets are made with key minerals to keep you healthy.",
+        "subheading": "<p>Each is derived from one of the 12 inorganic mineral compounds that are most important to our cellular health.<\/p><p>By working to stimulate the body’s natural healing mechanisms, cell salts help restore cell functions, bring health to muscle tissue, and balance the body.<\/p>"
+      }
+    },
+    "1660053120b89bc689": {
+      "type": "cell-salt-image-with-text",
+      "settings": {
+        "text": "Each quick-dissolving tablet is a convenient remedy to support wellness.",
+        "subheading": "<p>Our tablets are formulated in homeopathic microdoses, making them safe for the whole family, including children two years old and older.<\/p><p>You can even bring wellness on the go! A single dose of any one Hyland’s Cell Salts can be added to your or your child’s water bottle and sipped throughout the day.<\/p>",
+        "img": "shopify:\/\/shop_images\/download_1_ead5b059-a8bc-4a6a-ba60-0145e0dcf2ca.jpg"
+      }
+    },
+    "1660315222300b97b0": {
+      "type": "cell-single-product",
+      "settings": {
+        "product_item": "hylands-bioplasma",
+        "description": "<p>Bioplasma contains all twelve cell salts. This key combination restores mineral balance and can help relieve symptoms of colds, simple nervous tension, fatigue, and headaches.<\/p>"
+      }
+    },
+    "1660291890d81aa6b3": {
+      "type": "cell-salt-slider",
+      "blocks": {
+        "573460dd-cf7f-4e2a-8880-3dfa8fcb52ca": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-calc-fluor"
+          }
+        },
+        "e606957b-1b4e-49fd-91f8-900aa0441448": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-calc-phos"
+          }
+        },
+        "67f76ce7-f441-45f4-9e63-041da82566c9": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-calc-sulph"
+          }
+        },
+        "b6556996-246c-4f10-aedc-0a431d2f4741": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-ferrum-phos"
+          }
+        },
+        "a05ca517-bcfd-4099-b46f-6062ee8d5752": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-kali-mur"
+          }
+        },
+        "ac5c4d66-e77a-4cb2-8caf-81d28270c5bf": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-kali-phos"
+          }
+        },
+        "d1f9053e-5419-420d-be32-9ab48a54b685": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-kali-sulph"
+          }
+        },
+        "4cd9e0af-600f-4172-8464-1db5bd15b7ff": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-mag-phos"
+          }
+        },
+        "f863311e-b94c-40bf-b61c-a7e163bb2648": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-nat-mur"
+          }
+        },
+        "d306ad89-74cf-4833-a5e2-2757dc16c6d4": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-nat-phos"
+          }
+        },
+        "aa0e6644-1cbb-47b6-b054-bf7b19656650": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-nat-sulph"
+          }
+        },
+        "73b5e4f8-24ba-4740-8ca5-9ea1dac39c7d": {
+          "type": "card",
+          "settings": {
+            "product_item": "hylands-silicea"
+          }
+        }
+      },
+      "block_order": [
+        "573460dd-cf7f-4e2a-8880-3dfa8fcb52ca",
+        "e606957b-1b4e-49fd-91f8-900aa0441448",
+        "67f76ce7-f441-45f4-9e63-041da82566c9",
+        "b6556996-246c-4f10-aedc-0a431d2f4741",
+        "a05ca517-bcfd-4099-b46f-6062ee8d5752",
+        "ac5c4d66-e77a-4cb2-8caf-81d28270c5bf",
+        "d1f9053e-5419-420d-be32-9ab48a54b685",
+        "4cd9e0af-600f-4172-8464-1db5bd15b7ff",
+        "f863311e-b94c-40bf-b61c-a7e163bb2648",
+        "d306ad89-74cf-4833-a5e2-2757dc16c6d4",
+        "aa0e6644-1cbb-47b6-b054-bf7b19656650",
+        "73b5e4f8-24ba-4740-8ca5-9ea1dac39c7d"
+      ],
+      "settings": {
+        "main_head": "Looking to help remedy a specific issue?",
+        "main_subhead": "View our full line of single cell salts to find the right product for you. Each manages specific symptoms so you can be sure you're supporting your body's individual needs.",
+        "shop_all": "",
+        "shop_all_url": ""
+      }
+    },
+    "1660053168dfe9f91e": {
+      "type": "cell-salt-customer",
+      "blocks": {
+        "b8d47c5b-1528-4571-8832-6344624dc024": {
+          "type": "customer",
+          "settings": {
+            "name": "Life changing!",
+            "img": "shopify:\/\/shop_images\/download_7d1fe47b-e5aa-437a-8b09-d27baf729d50.jpg",
+            "text": "<p>I was looking for something to help with the brutal headaches I have. I had realized the connection between dehydration and my headaches. A store employee recommended Bioplasma. For nine out of ten headaches, Bioplasma ends it in a few minutes. I will now use them daily. Thank you<\/p>",
+            "mainname": "<p>Davetta301 on<strong> Bioplasma<\/strong><\/p>"
+          }
+        },
+        "c0b21512-a01e-4487-89bf-e472c4ca92b0": {
+          "type": "customer",
+          "settings": {
+            "name": "Love!",
+            "img": "shopify:\/\/shop_images\/download_7d1fe47b-e5aa-437a-8b09-d27baf729d50.jpg",
+            "text": "<p>I have had a HUGE breakout since December with painful skin eruptions on my chin and nose with no relief no matter what I tried. My friend told me about cell salts and looked it up. I ordered this product and tried the max dosage. Within a week my face was clear! It’s literally a miracle! So happy with this product!<\/p>",
+            "mainname": "<p>Shannonon<strong>Cell Salt #7<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b8d47c5b-1528-4571-8832-6344624dc024",
+        "c0b21512-a01e-4487-89bf-e472c4ca92b0"
+      ],
+      "settings": {
+        "heading": "Customers love our cell salts!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166002976881b13256",
+    "166004344774c96617",
+    "1660053120b89bc689",
+    "1660315222300b97b0",
+    "1660291890d81aa6b3",
+    "1660053168dfe9f91e"
+  ]
+}
